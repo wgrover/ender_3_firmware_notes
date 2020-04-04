@@ -1,6 +1,8 @@
 # My notes from using a Mac to install Marlin firmware on the Creality Ender 3 3D printer
 
-1. In Arduino IDE, open Examples / ArduinoISP
+These are the steps I used to replace the default firmware with Marlin on Creality Ender 3 3D printers using a Mac and an Arduino Uno clone.
+
+1. In the Arduino IDE, open **Examples / ArduinoISP**
 2. Tools / Manage Libraries, install U8glib library
 3. Preferences / Additional Boards Manager URLs, add https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json 
 4. Tools / Boards Manager, install Sanguino
